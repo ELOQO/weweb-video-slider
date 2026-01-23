@@ -221,7 +221,9 @@ export default {
   overflow: hidden;
   border-radius: 16px;
   background: #0c1027;
-  height: clamp(220px, 55vw, 520px);
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  max-height: clamp(220px, 55vw, 520px);
   touch-action: pan-x;
 }
 
