@@ -22,6 +22,11 @@
               src="https://cdn.weweb.io/designs/7bbcc9e0-1226-4553-bc79-e03ef78066b4/sections/mascot-eagle.png?_wwcv=1768993575611"
               alt="Mascotte aigle"
             />
+            <p class="cta-text">
+              Super ! ⏱️ Tu as quelques minutes pour revoir tes notes avant de passer à la suite du module.
+              Tu vas maintenant t’entraîner avec un scénario réaliste pour te présenter face à un recruteur. 🎯
+              Choisis ta méthode et lance-toi ! 🚀
+            </p>
             <a
               class="cta-button"
               href="http://7bbcc9e0-1226-4553-bc79-e03ef78066b4.weweb-preview.io/instructions/"
@@ -322,6 +327,15 @@ export default {
   width: min(160px, 60%);
   height: auto;
   display: block;
+}
+
+.cta-text {
+  margin: 0;
+  max-width: 320px;
+  text-align: center;
+  color: #f7f7fb;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .slider-controls {
