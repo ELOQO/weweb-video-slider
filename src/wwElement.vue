@@ -339,6 +339,7 @@ export default {
   padding: 12px 16px;
   font-size: 15px;
   line-height: 1.5;
+  font-family: "Sora", sans-serif;
 }
 
 .slider-controls {
